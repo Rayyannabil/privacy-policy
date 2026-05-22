@@ -156,6 +156,19 @@
             margin-bottom: 8px;
         }
 
+        /* Highlight box for deletion instructions */
+        .instruction-box {
+            background-color: #f0fdf4; /* Very light green */
+            border-left: 4px solid var(--primary-color);
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .instruction-box strong {
+            color: var(--text-dark);
+        }
+
         /* Footer */
         footer {
             text-align: center;
@@ -173,7 +186,7 @@
                 flex-direction: column;
                 gap: 15px;
             }
-
+            
             .hero h1 {
                 font-size: 1.5rem;
             }
@@ -213,7 +226,7 @@
         <section class="hero">
             <h1>Yalla Padel Legal Information</h1>
             <p>
-                Welcome to Yalla Padel. We provide an automated WhatsApp service to help you book Padel courts,
+                Welcome to Yalla Padel. We provide an automated WhatsApp service to help you book Padel courts, 
                 manage reservations, and process secure payments via Paymob.
             </p>
         </section>
@@ -221,12 +234,12 @@
         <!-- Privacy Policy Section -->
         <section id="privacy" class="legal-section">
             <h2>Privacy Policy</h2>
-            <p><strong>Last Updated:</strong> 2026</p>
+            <p><strong>Last Updated:</strong> October 2023</p>
 
             <h3>1. Introduction</h3>
             <p>
-                Welcome to Yalla Padel ("we," "our," or "us"). We are committed to protecting your privacy.
-                This Privacy Policy explains how we handle your information when you interact with our WhatsApp Business services
+                Welcome to Yalla Padel ("we," "our," or "us"). We are committed to protecting your privacy. 
+                This Privacy Policy explains how we handle your information when you interact with our WhatsApp Business services 
                 to book Padel playgrounds.
             </p>
 
@@ -238,7 +251,7 @@
                 <li><strong>Phone Number:</strong> Your WhatsApp phone number is your primary identifier used to communicate with our booking system.</li>
                 <li><strong>Booking Details:</strong> Date, time, and specific court preferences you request.</li>
                 <li><strong>Transaction Data:</strong> Information related to payments processed through Paymob.</li>
-                <li><strong>Conversation History:</strong> Chat logs may be processed temporarily to understand your requests (e.g., "cancel my booking") and provide customer support.</li>
+                <li><strong>Conversation History:</strong> Chat logs may be processed temporarily to understand your requests and provide customer support.</li>
             </ul>
 
             <h3>3. Purpose of Data Processing</h3>
@@ -264,14 +277,47 @@
 
             <h3>5. Data Security</h3>
             <p>
-                We implement appropriate technical and organizational measures to protect your data. However, please note that
+                We implement appropriate technical and organizational measures to protect your data. However, please note that 
                 no method of transmission over the internet is 100% secure.
             </p>
 
-            <h3>6. Your Rights</h3>
+            <h3>6. User Data Deletion Instructions</h3>
             <p>
-                You have the right to request access to, correction of, or deletion of your personal data.
-                You can exercise these rights by contacting us directly via WhatsApp or asking the service to "delete my data."
+                Users of Yalla Padel have the right to request the deletion of their personal data from our active databases. 
+                If you wish to delete your data, please follow the instructions below:
+            </p>
+            
+            <div class="instruction-box">
+                <p><strong>How to Request Deletion via WhatsApp:</strong></p>
+                <p>
+                    You can request deletion directly through our automated service. Open your WhatsApp chat with Yalla Padel and send the command:
+                </p>
+                <p style="font-family: monospace; font-weight: bold; color: var(--primary-color); background: #e2e8f0; padding: 5px 10px; border-radius: 4px; display: inline-block; margin: 5px 0;">
+                    "Delete my data"
+                </p>
+                <p>
+                    Upon receiving this command, our system will verify your identity (via your phone number) and initiate the deletion process. You will receive a confirmation message once the process is complete.
+                </p>
+            </div>
+
+            <p><strong>Alternative Method:</strong><br>
+            If you are unable to use the WhatsApp service, you may email us at <strong>support@yallapadel.com</strong> with the subject line "Data Deletion Request" from the email address associated with your account (if applicable) or include your phone number in the body.
+            </p>
+
+            <p><strong>What We Delete:</strong></p>
+            <ul>
+                <li>Your phone number and name stored in our CRM.</li>
+                <li>Your historical booking data.</li>
+                <li>Any personal preferences saved in our system.</li>
+            </ul>
+
+            <p><strong>Retention and Meta Data:</strong><br>
+            Please note that while we will delete your data from Yalla Padel's systems, Meta (Facebook/WhatsApp) may retain user data on their own servers for their own operational, safety, and legal purposes, which is beyond our control.</p>
+
+            <h3>7. Your Rights</h3>
+            <p>
+                In addition to deletion, you have the right to request access to or correction of your personal data. 
+                You can exercise these rights by contacting us directly via WhatsApp or asking the service to "update my details."
             </p>
         </section>
 
@@ -282,13 +328,13 @@
 
             <h3>1. Acceptance of Terms</h3>
             <p>
-                By using the Yalla Padel service on WhatsApp to book Padel courts, you agree to be bound by these Terms and Conditions.
+                By using the Yalla Padel service on WhatsApp to book Padel courts, you agree to be bound by these Terms and Conditions. 
                 If you do not agree, please do not use the service.
             </p>
 
             <h3>2. The Service</h3>
             <p>
-                Yalla Padel provides an automated chatbot assistant that connects users to Padel playground booking systems.
+                Yalla Padel provides an automated chatbot assistant that connects users to Padel playground booking systems. 
                 It allows users to check availability, make bookings, cancel bookings, and receive payment links instantly.
             </p>
 
@@ -335,7 +381,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Yalla Padel. All rights reserved.</p>
+            <p>&copy; 2023 Yalla Padel. All rights reserved.</p>
             <p style="margin-top: 10px; font-size: 0.85rem;">
                 Powered by WhatsApp Business API & Paymob
             </p>
