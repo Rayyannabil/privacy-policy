@@ -160,13 +160,25 @@
         .instruction-box {
             background-color: #f0fdf4; /* Very light green */
             border-left: 4px solid var(--primary-color);
-            padding: 15px;
-            margin: 15px 0;
+            padding: 20px;
+            margin: 20px 0;
             border-radius: 0 8px 8px 0;
         }
 
         .instruction-box strong {
             color: var(--text-dark);
+        }
+
+        .code-snippet {
+            font-family: monospace;
+            font-weight: bold;
+            color: var(--primary-color);
+            background: #e2e8f0;
+            padding: 8px 12px;
+            border-radius: 4px;
+            display: inline-block;
+            margin: 10px 0;
+            font-size: 1.1rem;
         }
 
         /* Footer */
@@ -215,6 +227,7 @@
                 <ul>
                     <li><a href="#privacy">Privacy Policy</a></li>
                     <li><a href="#terms">Terms & Conditions</a></li>
+                    <li><a href="#deletion">Data Deletion</a></li>
                 </ul>
             </nav>
         </div>
@@ -281,43 +294,11 @@
                 no method of transmission over the internet is 100% secure.
             </p>
 
-            <h3>6. User Data Deletion Instructions</h3>
+            <h3>6. Your Rights</h3>
             <p>
-                Users of Yalla Padel have the right to request the deletion of their personal data from our active databases. 
-                If you wish to delete your data, please follow the instructions below:
-            </p>
-            
-            <div class="instruction-box">
-                <p><strong>How to Request Deletion via WhatsApp:</strong></p>
-                <p>
-                    You can request deletion directly through our automated service. Open your WhatsApp chat with Yalla Padel and send the command:
-                </p>
-                <p style="font-family: monospace; font-weight: bold; color: var(--primary-color); background: #e2e8f0; padding: 5px 10px; border-radius: 4px; display: inline-block; margin: 5px 0;">
-                    "Delete my data"
-                </p>
-                <p>
-                    Upon receiving this command, our system will verify your identity (via your phone number) and initiate the deletion process. You will receive a confirmation message once the process is complete.
-                </p>
-            </div>
-
-            <p><strong>Alternative Method:</strong><br>
-            If you are unable to use the WhatsApp service, you may email us at <strong>support@yallapadel.com</strong> with the subject line "Data Deletion Request" from the email address associated with your account (if applicable) or include your phone number in the body.
-            </p>
-
-            <p><strong>What We Delete:</strong></p>
-            <ul>
-                <li>Your phone number and name stored in our CRM.</li>
-                <li>Your historical booking data.</li>
-                <li>Any personal preferences saved in our system.</li>
-            </ul>
-
-            <p><strong>Retention and Meta Data:</strong><br>
-            Please note that while we will delete your data from Yalla Padel's systems, Meta (Facebook/WhatsApp) may retain user data on their own servers for their own operational, safety, and legal purposes, which is beyond our control.</p>
-
-            <h3>7. Your Rights</h3>
-            <p>
-                In addition to deletion, you have the right to request access to or correction of your personal data. 
-                You can exercise these rights by contacting us directly via WhatsApp or asking the service to "update my details."
+                You have the right to request access to, correction of, or deletion of your personal data. 
+                For specific step-by-step instructions on how to delete your data, please refer to our dedicated 
+                <a href="#deletion" style="color: var(--primary-color); font-weight: bold;">Data Deletion Instructions</a> section below.
             </p>
         </section>
 
@@ -374,6 +355,58 @@
             <h3>7. Changes to Terms</h3>
             <p>
                 We reserve the right to modify these terms at any time. Continued use of the service constitutes acceptance of the new terms.
+            </p>
+        </section>
+
+        <!-- Data Deletion Instructions Section (NEW) -->
+        <section id="deletion" class="legal-section">
+            <h2>User Data Deletion Instructions</h2>
+            <p><strong>Last Updated:</strong> October 2023</p>
+
+            <h3>Overview</h3>
+            <p>
+                At Yalla Padel, we respect your right to privacy. If you wish to permanently delete your personal data from our 
+                booking systems and stop using our WhatsApp service, you can do so easily.
+            </p>
+
+            <h3>How to Request Deletion via WhatsApp</h3>
+            <p>
+                The fastest way to delete your data is through our automated WhatsApp service.
+            </p>
+            
+            <div class="instruction-box">
+                <p><strong>Step 1:</strong> Open your chat with <em>Yalla Padel</em> on WhatsApp.</p>
+                <p><strong>Step 2:</strong> Type and send the following exact command:</p>
+                
+                <div class="code-snippet">Delete my data</div>
+
+                <p><strong>Step 3:</strong> Our system will verify your phone number and process the request. You will receive a confirmation message once your data has been erased from our active databases.</p>
+            </div>
+
+            <h3>Alternative Method: Email Request</h3>
+            <p>
+                If you are unable to access WhatsApp or have issues with the bot, you may request deletion via email:
+            </p>
+            <ul>
+                <li>Send an email to: <strong>support@yallapadel.com</strong></li>
+                <li>Subject Line: <strong>Data Deletion Request</strong></li>
+                <li>Body: Include the phone number linked to your WhatsApp account.</li>
+            </ul>
+
+            <h3>What Data Will Be Deleted?</h3>
+            <p>Upon a successful deletion request, we will remove the following from our internal servers:</p>
+            <ul>
+                <li>Your WhatsApp phone number and user profile name.</li>
+                <li>Historical booking data (past and future reservations).</li>
+                <li>Any specific preferences or notes saved in your account.</li>
+            </ul>
+
+            <h3>Important Note on Meta (WhatsApp) Data</h3>
+            <p>
+                While Yalla Padel will delete your data from our own systems, please be aware that <strong>Meta (Facebook/WhatsApp)</strong> 
+                may retain user data on their own servers for their own operational, safety, security, and legal purposes. 
+                Deleting your data with Yalla Padel does not automatically delete your account with WhatsApp/Meta. To delete your 
+                WhatsApp account entirely, you must use WhatsApp's own "Delete My Account" feature within the app settings.
             </p>
         </section>
 
